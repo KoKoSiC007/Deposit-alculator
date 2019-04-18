@@ -14,7 +14,6 @@
 // перечесление валюты (она у всех вкладов одинаковая(одна из трех))
 enum currency{
     RU,
-    EU,
     USD
 };
 /*
@@ -50,7 +49,7 @@ public:
     Maths();
     Maths(currency,date::year_month_day,date::year_month_day, amount,date::year_month_day);
     Maths(currency, date::year_month_day, date::year_month_day, amount, bool, bool);
-    void showResult();
+    double showResult();
 };
 
 #endif // MATHS_H

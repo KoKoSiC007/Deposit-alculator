@@ -143,7 +143,8 @@ double Maths::yourIncome(){
 
 }
 
-void Maths::showResult(){
-    std::cout << "Ваша вклад на: " << termOfDeposit << " дней, выгода составит: " << income << " и того на вашем счету к концу срока будет: " << depositAmount + income << std::endl;
+double Maths::showResult(){
+//    std::cout << "Ваша вклад на: " << termOfDeposit << " дней, выгода составит: " << income << " и того на вашем счету к концу срока будет: " << depositAmount + income << std::endl;
+    return depositAmount + income;
 }
 
